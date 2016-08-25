@@ -1,0 +1,7 @@
+# https://docs.docker.com/compose/compose-file/
+version: "2"
+services:
+  p7zip:
+    build: .
+    container_name: p7zip
+      - ./data:/data
